@@ -1,9 +1,13 @@
-function App() {
-  
+import React from 'react'
+import News from './components/News'
 
+const App = () => {
   return (
-    <h1>NimiraTech</h1>
+    <div>
+      <News />     
+    </div>
   )
 }
 
 export default App
+
