@@ -35,47 +35,10 @@ html {
   font-family: var(--logo-font);
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--main-light);
-  height: 9.6rem;
-  padding: 0 4.8rem;
-}
-
-.main-nav-list {
-  display: flex;
-  text-transform: uppercase;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  color: var(--grey-dark);
-  font-weight: 500;;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: var(--main);
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
-  border-radius: 0.3rem;
-  color: var(--light);
-  background-color: var(--main);
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: var(--main-dark);
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .heading-primary,
@@ -257,8 +220,51 @@ html {
 
 .center-text {
   text-align: center;
+}.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-light);
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  color: var(--grey-dark);
+  font-weight: 500;
+  ;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--main);
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.3rem;
+  color: var(--light);
+  background-color: var(--main);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: var(--main-dark);
 }
 
 .strong {
   font-weight: 400;
 }
+
