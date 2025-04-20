@@ -106,3 +106,16 @@ html {
 .main-nav-link:active {
   color: var(--main);
 }
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: var(--rem-1-25) var(--rem-2-5);
+  border-radius: var(--size-9);
+  color: var(--light);
+  background-color: var(--main);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav0cta:active {
+  background-color: var(--main-dark);
+}
