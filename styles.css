@@ -48,10 +48,12 @@
   --rem-4: 4rem;          /* 64px */
   --rem-4-5: 4.5rem;      /* 72px */
   --rem-4-68: 4.6875rem;  /* 75px */
+  --rem-4-8: 4.8rem       /* 76.8px */
   --rem-5: 5rem;          /* 80px */
   --rem-6: 6rem;          /* 96px */
   --rem-6-25: 6.25rem;    /* 100px */
   --rem-8: 8rem;          /* 128px */
+  --rem-9-6: 9.6rem;      /* 153.6px */ 
   --rem-10: 10rem;        /* 160px */
   --rem-15: 15rem;        /* 240px */
   --rem-20: 20rem;        /* 320px */
@@ -74,4 +76,13 @@ html {
 
 .logo {
   font-family: var(--logo-font);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-light);
+  height: var(--rem-9-6);
+  padding: 0 var(--rem-4-8);
 }
