@@ -86,3 +86,17 @@ html {
   height: var(--rem-9-6);
   padding: 0 var(--rem-4-8);
 }
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  color: var(--dark);
+  font-weight: 500;;
+  font-size: var(--rem-1-75);
+}
