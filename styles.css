@@ -99,4 +99,10 @@ html {
   color: var(--dark);
   font-weight: 500;;
   font-size: var(--rem-1-75);
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--main);
 }
