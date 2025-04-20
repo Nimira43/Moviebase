@@ -89,6 +89,7 @@ html {
 
 .main-nav-list {
   display: flex;
+  text-transform: uppercase;
   align-items: center;
   gap: 3.2rem;
 }
@@ -116,6 +117,6 @@ html {
 }
 
 .main-nav-link.nav-cta:hover,
-.main-nav-link.nav0cta:active {
+.main-nav-link.nav-cta:active {
   background-color: var(--main-dark);
 }
