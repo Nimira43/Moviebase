@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Splash&display=swap');
 
 :root {
+  --main-font: 'Poppins', sans-serif;
+  --logo-font: 'Splash', cursive;
   --main: #11a811;
   --main-light: #cdfacd;
   --main-dark: #0d680d;
@@ -54,4 +56,22 @@
   --rem-15: 15rem;        /* 240px */
   --rem-20: 20rem;        /* 320px */
   --rem-25: 25rem;        /* 400px */
+}
+
+* {
+  font-family: var(--main-font);
+  font-weight: 300;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.logo {
+  font-family: var(--logo-font);
 }
