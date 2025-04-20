@@ -6,9 +6,9 @@
   --main: #11a811;
   --main-light: #cdfacd;
   --main-dark: #0d680d;
-  --support: #f26938;
-  --support-dark: #fad3c5;
-  --support-light: #ff4500;
+  --support: #f0612d;
+  --support-light: #fad3c5;
+  --support-dark: #ff4500;
   --dark: #111;
   --light: #fffcfa;
   --grey-dark: #333;
@@ -116,16 +116,104 @@ html {
   letter-spacing: 0.75px;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn-full,
+.btn-outline {
   display: inline-block;
   font-size: 2rem;
   font-weight: 400;
   padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  border: none;
+  border-radius: 10px;
   cursor: pointer;
-  font=
+  font-family: inherit;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.btn-main {
+  border: 1px solid var(--main);
+  background-color: var(--main);
+  color: var(--light)
+}
+
+.btn-main:hover {
+  border-color: var(--main-dark);
+  background-color: var(--main-dark);
+}
+
+.btn-main-outline {
+  border: 1px solid var(--main);
+  background-color: transparent;
+  color: var(--main);
+}
+
+.btn-main-outline:hover {
+  border-color: var(--main-dark);
+  color: var(--main-dark)
+}
+
+.btn-support {
+  border: 1px solid var(--support);
+  background-color: var(--support);
+  color: var(--light)
+}
+
+.btn-support:hover {
+  border-color: var(--support-dark);
+  background-color: var(--support-dark);
+}
+
+.btn-support-outline {
+  border: 1px solid var(--support);
+  background-color: transparent;
+  color: var(--support);
+}
+
+.btn-support-outline:hover {
+  border-color: var(--support-dark);
+  color: var(--support-dark)
+}
+
+.btn-dark {
+  border: 1px solid var(--dark);
+  background-color: var(--dark);
+  color: var(--light)
+}
+
+.btn-dark:hover {
+  border-color: var(--grey-dark);
+  background-color: var(--grey-dark);
+}
+
+.btn-dark-outline {
+  border: 1px solid var(--dark);
+  background-color: transparent;
+  color: var(--dark);
+}
+
+.btn-dark-outline:hover {
+  border-color: var(--grey-dark);
+  color: var(--grey-dark)
+}
+
+.btn-light {
+  border: 1px solid var(--light);
+  background-color: var(--light);
+  color: var(--dark)
+}
+
+.btn-light:hover {
+  border-color: var(--grey-light);
+  background-color: var(--grey-light);
+}
+
+.btn-light-outline {
+  border: 1px solid var(--light);
+  background-color: transparent;
+  color: var(--light);
+}
+
+.btn-light-outline:hover {
+  border-color: var(--grey-light);
+  color: var(--grey-light)
 }
 
