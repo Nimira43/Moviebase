@@ -234,33 +234,30 @@ html {
   text-transform: uppercase;
   align-items: center;
   gap: 3.2rem;
+  
 }
 
-.main-nav-link:link,
-.main-nav-link:visited {
+.main-nav-link {
   display: inline-block;
   color: var(--grey-dark);
   font-weight: 500;
-  ;
   font-size: 1.8rem;
+  padding: 1rem; /* Take out later */
   transition: all 0.3s;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
+.main-nav-link:hover {
   color: var(--main);
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.main-nav-link.nav-cta {
   padding: 1.2rem 2.4rem;
   border-radius: 0.3rem;
   color: var(--light);
   background-color: var(--main);
 }
 
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
+.main-nav-link.nav-cta:hover {
   background-color: var(--main-dark);
 }
 
