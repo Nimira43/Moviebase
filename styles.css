@@ -14,50 +14,7 @@
   --grey-dark: #111;
   --grey-medium: #111;
   --grey-light: #111;
-  --grey-light-extra: #111; 
-  --size-1: 0.0625rem;    /* 1px */
-  --size-2: 0.125rem;     /* 2px */
-  --size-3: 0.1875rem;    /* 3px */
-  --size-4: 0.25rem;      /* 4px */
-  --size-5: 0.3125rem;    /* 5px */
-  --size-6: 0.375rem;     /* 6px */
-  --size-7: 0.4375rem;    /* 7px */
-  --size-8: 0.5rem;       /* 8px */
-  --size-9: 0.5625rem;    /* 9px */
-  --size-10: 0.625rem;    /* 10px */
-  --size-12: 0.75rem;     /* 12px */
-  --size-14: 0.875rem;    /* 14px */
-  --size-15: 0.9375rem;   /* 15px */
-  --rem-1: 1rem;          /* 16px */
-  --rem-1-12: 1.125rem;   /* 18px */  
-  --rem-1-25: 1.25rem;    /* 20px */
-  --rem-1-37: 1.375rem;   /* 22px */
-  --rem-1-5: 1.5rem;      /* 24px */
-  --rem-1-56: 1.5625rem;  /* 25px */
-  --rem-1-75: 1.75rem;    /* 28px */
-  --rem-1-87: 1.875rem;   /* 30px */
-  --rem-2: 2rem;          /* 32px */
-  --rem-2-18: 2.1875rem;  /* 35px */
-  --rem-2-25: 2.25rem;    /* 36px */
-  --rem-2-5: 2.5rem;      /* 40px */
-  --rem-2-75: 2.75rem;    /* 44px */
-  --rem-2-81: 2.8125rem;  /* 45px */
-  --rem-3: 3rem;          /* 48px */
-  --rem-3-12: 3.125rem;   /* 50px */
-  --rem-3-5: 3.5rem;      /* 56px */
-  --rem-4: 4rem;          /* 64px */
-  --rem-4-5: 4.5rem;      /* 72px */
-  --rem-4-68: 4.6875rem;  /* 75px */
-  --rem-4-8: 4.8rem       /* 76.8px */
-  --rem-5: 5rem;          /* 80px */
-  --rem-6: 6rem;          /* 96px */
-  --rem-6-25: 6.25rem;    /* 100px */
-  --rem-8: 8rem;          /* 128px */
-  --rem-9-6: 9.6rem;      /* 153.6px */ 
-  --rem-10: 10rem;        /* 160px */
-  --rem-15: 15rem;        /* 240px */
-  --rem-20: 20rem;        /* 320px */
-  --rem-25: 25rem;        /* 400px */
+  --grey-light-extra: #111;  
 }
 
 * {
@@ -83,8 +40,8 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: var(--main-light);
-  height: var(--rem-9-6);
-  padding: 0 var(--rem-4-8);
+  height: 9.6rem;
+  padding: 0 4.8rem;
 }
 
 .main-nav-list {
@@ -97,9 +54,9 @@ html {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  color: var(--dark);
+  color: var(--grey-dark);
   font-weight: 500;;
-  font-size: var(--rem-1-75);
+  font-size: 1.8rem;
   transition: all 0.3s;
 }
 
@@ -110,8 +67,8 @@ html {
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: var(--rem-1-25) var(--rem-2-5);
-  border-radius: var(--size-9);
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.3rem;
   color: var(--light);
   background-color: var(--main);
 }
@@ -119,4 +76,32 @@ html {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: var(--main-dark);
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  color: var(--dark);
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  color: var(--main);
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  color: var(--support);
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
