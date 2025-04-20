@@ -217,3 +217,10 @@ html {
   color: var(--grey-light)
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
+.margin-right-md {
+  margin-right: 4.8rem;
+}
