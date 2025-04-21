@@ -275,7 +275,7 @@ html {
 .main-nav-link {
   display: inline-block;
   color: var(--grey-dark);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.8rem;
   padding: 1rem; /* Take out later */
   transition: all 0.3s;
@@ -287,7 +287,7 @@ html {
 
 .main-nav-link.nav-cta {
   padding: 1.2rem 2.4rem;
-  border-radius: 0.3rem;
+  border-radius: 10px;
   color: var(--light);
   background-color: var(--main);
 }
@@ -370,4 +370,10 @@ html {
 .logos {
   display: flex;
   justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
