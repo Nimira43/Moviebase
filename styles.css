@@ -496,4 +496,17 @@ html {
   gap: 2rem;
 }
 
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--main);
+}
 
+.meal-img {
+  width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
