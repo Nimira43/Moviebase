@@ -367,3 +367,7 @@ html {
   color: var(--grey-light);
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
