@@ -31,6 +31,15 @@ html {
   font-size: 62.5%;
 }
 
+.main {
+  color: var(--main);
+}
+
+.support {
+  color: var(--support)
+}
+
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -71,24 +80,22 @@ html {
 .heading-tertiary {
   font-weight: 500;
   letter-spacing: -0.5px;
+  color: var(--dark);
 }
 
 .heading-primary {
-  color: var(--dark);
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-  color: var(--main);
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
-  color: var(--support);
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
@@ -354,6 +361,7 @@ html {
 }
 
 .section-featured {
+  background-color: var(--light);
   padding: 4.8rem 0 3.2rem 0;
 }
 
@@ -380,6 +388,14 @@ html {
 
 .section-how {
   padding: 9.6rem 0;
+  background-color: var(--light)
+
 }
 
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 500;
+  color: var(--main);
+  margin-bottom: 1.2rem;
+}
 
