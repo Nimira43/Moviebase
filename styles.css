@@ -253,7 +253,9 @@ html {
 
 .center-text {
   text-align: center;
-}.header {
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
