@@ -410,3 +410,32 @@ html {
   justify-content: center;
 }
 
+.step-img-box::before,
+.step-img-box::after {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: rgb(174, 95, 5);
+  z-index: -2;
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: rgb(114, 205, 241);
+  z-index: -1;
+}
+
+.step-img {
+  width: 35%;
+}
+
