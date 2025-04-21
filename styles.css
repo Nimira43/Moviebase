@@ -440,6 +440,7 @@ html {
 }
 
 .section-meals {
+  background-color: var(--light);
   padding: 9.6rem 0;
 }
 
