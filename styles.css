@@ -103,9 +103,9 @@ html {
 
 .subheading {
   display: block;
+  color: var(--grey-medium);
   font-size: 1.6rem;
   font-weight: 500;
-  color: var(--grey-medium);
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -372,7 +372,7 @@ html {
   font-weight: 400;
   text-align: center;
   margin-bottom: 2.4rem;
-  color: var(--grey-light);
+  color: var(--grey-medium);
 }
 
 .logos {
@@ -389,7 +389,6 @@ html {
 .section-how {
   padding: 9.6rem 0;
   background-color: var(--light)
-
 }
 
 .step-number {
@@ -397,5 +396,17 @@ html {
   font-weight: 500;
   color: var(--main);
   margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
