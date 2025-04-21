@@ -490,3 +490,10 @@ html {
   margin-bottom: 3.2rem;
 }
 
+.meal-sttributes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
